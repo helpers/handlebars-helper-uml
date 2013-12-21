@@ -1,0 +1,28 @@
+{
+  "name": "handlebars-helper-uml",
+  "version": "0.0.1",
+  "description": "Embed UML diagrams in your handlebars template using www.websequencediagrams.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpers/handlebars-helper-uml"
+  },
+  "keywords": [
+    "handlebars",
+    "helper",
+    "uml",
+    "assemble"
+  ],
+  "author": "Brian Woodward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helpers/handlebars-helper-uml/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-readme": "~0.4.5"
+  }
+}
