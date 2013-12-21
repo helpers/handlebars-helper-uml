@@ -1,6 +1,6 @@
 {
   "name": "handlebars-helper-uml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Embed UML diagrams in your handlebars template using www.websequencediagrams.com",
   "main": "index.js",
   "scripts": {
