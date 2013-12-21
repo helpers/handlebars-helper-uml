@@ -15,13 +15,13 @@ module.exports.register = function (Handlebars, options, params) {
 		'<div class=wsd wsd_style="default"><pre>',
 		'',
 		'{{code}}',
-		''
+		'',
 		'</pre></div><script type="text/javascript" src="http://www.websequencediagrams.com/service.js"></script>'
 	];
 
 	var tmpl = Handlebars.compile(html.join('\n'));
 
 	Handlebars.registerHelper('uml', function(opts) {
-		return new Handlebars.SafeString(tmpl({code: opts.fn()}));
+		return new Handlebars.SafeString(tmpl({code: opts.fn(this)}));
 	});
 };
